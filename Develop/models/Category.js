@@ -7,29 +7,16 @@ class Category extends Model {}
 Category.init(
   {
     // define columns
-    book_id: {
+    id: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: true
     },
-    title: {
+    category_name: {
       type: DataTypes.STRING,
-    },
-    author: {
-      type: DataTypes.STRING,
-    },
-    isbn: {
-      type: DataTypes.STRING,
-    },
-    pages: {
-      type: DataTypes.INTEGER,
-    },
-    edition: {
-      type: DataTypes.INTEGER,
-    },
-    is_paperback: {
-      type: DataTypes.BOOLEAN,
-    },
+      allowNull: false
+    }
   },
   {
     sequelize,
