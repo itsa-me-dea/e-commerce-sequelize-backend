@@ -25,23 +25,21 @@ Starting the Server:
 
 ## Usage
 
-This project will not be deployed. Refer to the following gifs and associated [tutorial video file](./Assets) or [tutorial video link](insert link).
+This project will not be deployed. Refer to the following gifs and associated [tutorial video file](./Assets/screen-capture-e-commerce-sequelize-backend.mp4) or [tutorial video link](https://drive.google.com/file/d/1kvk2-O5uZL9tUcgrwuLZJ9Goe1v-iNWA/view?usp=sharing).
 
-<!-- 
-The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
+**NOTE:** The POST and DELETE requests will show as 0 or 1, indicating that the POST either failed or successfully updated, respectively. 
 
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
+The following animation shows the application's GET, POST, PUT, DELETE routes for categories tested in Insomnia:
 
-The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
+![Categories GET, POST, PUT, DELETE routes test in Insomnia.](./Assets/demo-CATEGORIES.gif)
 
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
+The following animation shows the application's GET, POST, PUT, DELETE routes for tags tested in Insomnia:
 
-The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
+![Tags GET, POST, PUT, DELETE routes test in Insomnia.](./Assets/demo-TAGS.gif)
 
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
+The following animation shows the application's GET, POST, PUT, DELETE routes for products tested in Insomnia:
 
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
- -->
+![Products GET, POST, PUT, DELETE routes test in Insomnia.](./Assets/demo-PRODUCTS.gif)
 
 ## Credits
 
@@ -77,10 +75,6 @@ In general, follow the "fork-and-pull" Git workflow.
   NOTE: Be sure to merge the latest from "upstream" before making a pull request!
   
   When contributing to this project, please follow the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) code of conduct.
-
-## Tests
-
-None.
 
 ## Questions
 
