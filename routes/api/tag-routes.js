@@ -55,18 +55,11 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
   // Calls the update method on the Tag model
-  Tag.update(
-    {
-      // All the fields you can update and the data attached to the request body.
-      id: req.body.id
-    },
-    {
-      // Gets the categories based on the id given in the request parameters
-      where: {
-        id: req.params.id,
-      },
+  Tag.update(req.body, {
+    where: {
+      id: req.params.id
     }
-  )
+  })
     .then((updatedTag) => {
       // Sends the updated tag as a json response
       res.json(updatedTag);
